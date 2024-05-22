@@ -4,13 +4,10 @@
 
 ## Table of contents
 
-* [Binaries](#binaries)
 * [Software](#software)
 * [Examples](#examples)
 * [Syntax of the specifications](#syntax-of-the-specifications)
 * [Form of the output](#form-of-the-output)
-
-## Binaries
 
 ## Software
 
