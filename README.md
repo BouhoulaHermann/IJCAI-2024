@@ -1,15 +1,15 @@
 # THIS README PAGE IS NOT OPERATIONAL YET
 
-# PRIMAL GRAMMARS DRIVEN AUTOMATED INDUCTION
+## PRIMAL GRAMMARS DRIVEN AUTOMATED INDUCTION
 
-## Table of contents
+### Table of contents
 
 * [Software](#software)
 * [Examples](#examples)
 * [Syntax of the specifications](#syntax-of-the-specifications)
 * [Form of the output](#form-of-the-output)
 
-## Software
+### Software
 
 The name  of the software  is *spec* (for  Linux and macOS)  or *spec.exe*
 (for Windows). It can be called by a command line of the long form
@@ -44,7 +44,7 @@ limit, a
 
 warning is issued and the proof is cancelled.
 
-## Examples
+### Examples
 
 The **examples** directory  contains 56 different specifications with
 conjectures to prove. All input files are of the form
@@ -91,7 +91,7 @@ check-examples
 To run  the commands *run-examples*  and *check-examples* you  need to
 have *perl* installed on your computer.
 
-## Syntax of the specifications
+### Syntax of the specifications
 
 The syntax of input specifications is described by the following LL(1)
 context-free grammar in BNF using regular expressions.  Curly brackets
@@ -154,7 +154,7 @@ enclosed in  quotation marks ".."   then it  is loaded from  the local
 directory. Neither the precedence on symbols, nor the conjectures, are
 inherited by inclusion.
 
-## Form of the output
+### Form of the output
 
 The form of the output files follows some specific rules.
 
