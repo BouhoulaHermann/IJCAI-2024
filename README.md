@@ -4,23 +4,41 @@
 
 ### Table of contents
 
+* [INDY](#indy)
 * [Software](#software)
 * [Examples](#examples)
 * [Syntax of the specifications](#syntax-of-the-specifications)
 * [Form of the output](#form-of-the-output)
 
+### INDY
+
+**INDY** is an inuctive prover using *primal grammars* for treating
+divergent proofs.
+
+For the moment, **INDY** is an experimental prototype still under
+development. If you wish to receive a copy of the software, please
+specify the architecture and send a request to
+
+``` bash
+hermann AT lix DOT polytechnique DOT fr
+```
+The software is available for the following architectures:
+* Linux (x86_64 and general)
+* MacOS
+* Windows
+
 ### Software
 
-The name  of the software  is *spec* (for  Linux and macOS)  or *spec.exe*
+The name  of the software  is *indy* (for  Linux and macOS)  or *indy.exe*
 (for Windows). It can be called by a command line of the long form
 
 ```bash
-spec --input <input file> --output <output file> --trace <number> --rounds <number> --direction <direction>
+indy --input <input file> --output <output file> --trace <number> --rounds <number> --direction <direction>
 ```
 or of the short form
 
 ```bash
-spec -i <input file> -o <output file> -t <number> -r <number> -d <direction>
+indy -i <input file> -o <output file> -t <number> -r <number> -d <direction>
 ```
 You can combine flags of both forms. Neither of the parameters need to
 be  specified,  since  all  have  a default  for  missing  flags.  The
